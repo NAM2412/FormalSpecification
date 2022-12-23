@@ -109,7 +109,7 @@ namespace FormalSpecification
             for (int i = 0; i < postType2Result.Length; i++)
             {
                 postType2Result[i].Trim().Replace(" ", string.Empty);
-                //postType2Result[i] = postType2Result[i].Replace("==", "=");
+                postType2Result[i] = postType2Result[i].Replace("==", "=");
                 postType2Result[i] = postType2Result[i].Replace("..", "*");
                 postType2Result[i] = postType2Result[i].Replace(" ", string.Empty);     
             }
